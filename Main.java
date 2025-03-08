@@ -11,3 +11,9 @@ public class Main {
         Duck redhead = new RedheadDuck();
         Duck rubber = new RubberDuck();
         Duck decoy = new DecoyDuck();
+        // Displaying the behavior of each duck
+        displayDuckBehavior(mallard);
+        displayDuckBehavior(redhead);
+        displayDuckBehavior(rubber);
+        displayDuckBehavior(decoy);
+    }
