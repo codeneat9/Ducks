@@ -9,3 +9,7 @@ public abstract class Duck {
     public void performFly() {//to fly
         flyBehavior.fly();
     }
+
+    public void performSwim() {//to swim
+        swimBehavior.swim();
+    }
