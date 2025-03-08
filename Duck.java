@@ -13,3 +13,10 @@ public abstract class Duck {
     public void performSwim() {//to swim
         swimBehavior.swim();
     }
+
+    public void performQuack() {//to quack
+        quackBehavior.quack();
+    }
+
+    public abstract void display();//to display
+}
