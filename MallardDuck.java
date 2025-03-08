@@ -5,3 +5,8 @@ public class MallardDuck extends Duck {
         swimBehavior = new Swim();
         quackBehavior = new Quack();
     }
+
+    public void display() {
+        System.out.println("I am a Mallard Duck.");
+    }
+}
