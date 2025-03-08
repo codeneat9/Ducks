@@ -17,3 +17,14 @@ public class Main {
         displayDuckBehavior(rubber);
         displayDuckBehavior(decoy);
     }
+    // Displaying the behavior of each duck
+    private static void displayDuckBehavior(Duck duck) {
+        System.out.println("\n" + duck.getClass().getSimpleName() + " behavior:");
+        duck.performFly();
+        duck.performSwim();
+        duck.performQuack();
+        duck.display();
+    }
+}
+
+
