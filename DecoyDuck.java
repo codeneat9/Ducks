@@ -5,3 +5,8 @@ public class DecoyDuck extends Duck {
         swimBehavior = new Drown();
         quackBehavior = new MuteQuack();
     }
+
+    public void display() {
+        System.out.println("I am a Decoy Duck.");
+    }
+}
